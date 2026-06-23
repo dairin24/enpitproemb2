@@ -2,24 +2,24 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Current State
+## 現状
 
-This repository (`enpitproemb2`) is in an early, pre-development state. As of this writing it
-contains only a placeholder `README.md` with no source code, build system, tests, dependency
-manifests, or CI configuration. There is no application architecture to document yet.
+このリポジトリ (`enpitproemb2`) は開発初期段階です。現時点ではプレースホルダーの `README.md`
+のみが存在し、ソースコード・ビルドシステム・テスト・依存関係の定義ファイル・CI 設定はありません。
+ドキュメント化すべきアプリケーションのアーキテクチャはまだ存在しません。
 
-When real code is introduced, this file should be expanded to cover:
-- Build, lint, test, and run commands (including how to run a single test)
-- High-level architecture that spans multiple files
-- Project-specific conventions
+実際のコードが追加された時点で、このファイルを以下の観点で拡充してください。
+- ビルド・lint・テスト・実行のコマンド（単一テストの実行方法を含む）
+- 複数ファイルにまたがる高レベルなアーキテクチャ
+- プロジェクト固有の規約
 
-Keep this section honest: do not document tooling or structure that does not actually exist in
-the repo. Update the sections below as the project takes shape.
+このセクションは正直に保つこと。リポジトリに実在しないツールや構造は記載しないでください。
+プロジェクトの形が定まるにつれて以下のセクションを更新してください。
 
-## Repository Conventions
+## リポジトリの規約
 
-- Default branch: `main`.
-- Development happens on feature branches that are merged into `main` via pull requests
-  (see existing history, e.g. branches named `feature_sample`). Do not commit directly to `main`.
-- The project name `enpitproemb` suggests an enPiT (Japanese university PBL/PBL-style project)
-  context; documentation and commit messages may be in Japanese or English.
+- デフォルトブランチ: `main`。
+- 開発はフィーチャーブランチで行い、プルリクエスト経由で `main` にマージします
+  （履歴上の `feature_sample` ブランチなどを参照）。`main` への直接コミットは避けてください。
+- プロジェクト名 `enpitproemb` は enPiT（大学の PBL 型プロジェクト）の文脈を示唆しており、
+  ドキュメントやコミットメッセージは日本語・英語のいずれかになる場合があります。
